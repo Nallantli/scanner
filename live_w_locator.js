@@ -1461,6 +1461,8 @@ $(function () {
             App.lastResult = code;
             var $node = null, canvas = Quagga.canvas.dom.image;
 
+            console.log(code);
+
             $node = $('<li><div class="thumbnail"><div class="imgWrapper"><img /></div><div class="caption"><h4 class="code"></h4></div></div></li>');
             $node.find("img").attr("src", canvas.toDataURL());
             $node.find("h4.code").html(`${DATA[code][0]["Property Name"]}<br>${DATA[code][0]["Unit Code"]}<br>${code}`);
