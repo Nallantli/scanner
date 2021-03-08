@@ -143,7 +143,6 @@ video.drawingBuffer {
 #result_strip>ul>li .thumbnail .caption h4 {
 	text-align: center;
 	word-wrap : break-word;
-	height    : 40px;
 	margin    : 0px;
 }
 
@@ -270,7 +269,6 @@ i.icon-24-scan {
 
 	#result_strip ul.thumbnails>li .thumbnail .imgWrapper {
 		width   : 130px;
-		height  : 130px;
 		overflow: hidden;
 	}
 
